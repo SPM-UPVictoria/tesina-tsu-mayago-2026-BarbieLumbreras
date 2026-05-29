@@ -1,0 +1,31 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{Resumen}{\es@scroman {iii}}{Doc-Start}%
+\contentsline {section}{Abstract}{\es@scroman {iv}}{Doc-Start}%
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Antecedentes}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Antecedentes de la empresa}{1}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Antecedentes técnicos}{2}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Definición del Problema}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Objetivos}{2}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Objetivo General}{2}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Objetivos Específicos}{2}{subsubsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.4}Justificación}{3}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Alcances y Limitaciones}{3}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Alcances}{3}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Limitaciones}{3}{subsubsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.6}Ejemplos de Tablas e Inclusión de Imágenes}{4}{subsection.1.6}%
+\contentsline {subsubsection}{\numberline {1.6.1}Inclusión de Tablas}{4}{subsubsection.1.6.1}%
+\contentsline {subsubsection}{\numberline {1.6.2}Inclusión de Imágenes}{4}{subsubsection.1.6.2}%
+\contentsline {section}{\numberline {2}Marco Teórico}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Señales de Voz: Producción y Características}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Análisis Espectral de Señales de Audio}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Síntesis de Voz mediante Inteligencia Artificial}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Aprendizaje Automático y Redes Neuronales}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Redes Neuronales Profundas para Audio}{6}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Detección de Voz Sintética (Anti-Spoofing)}{6}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Corpus y Bases de Datos de Audio en Español}{7}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Metodología}{8}{section.3}%
+\contentsline {section}{\numberline {4}Resultados}{11}{section.4}%
+\contentsline {section}{\numberline {5}Conclusiones}{12}{section.5}%
+\contentsline {section}{Bibliografía}{13}{section.5}%
+\contentsline {section}{Anexos}{14}{section.5}%

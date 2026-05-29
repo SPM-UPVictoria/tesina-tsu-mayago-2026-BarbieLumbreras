@@ -1,45 +1,65 @@
 \section{Introducción}
 \label{ch:introduccion}
 
-La introducción es la primera sección sustantiva de la tesis y tiene como propósito principal guiar al lector a través del contexto y la relevancia del estudio. En ella, se presenta el problema de investigación, se establecen los objetivos, se justifica la realización del trabajo y se delinean los alcances y limitaciones. Debe ser escrita de forma clara y concisa, capturando el interés del lector y proporcionando una visión general de lo que se abordará en los capítulos subsiguientes.
+En los últimos años, los avances tecnológicos en inteligencia artificial ha permitido el desarrollo de los sistemas capaces de sintetizar la voz humana con un nivel de realismo difícil de detectar. Tecnologías como los modelos de conversión de voz basados en redes neuronales han alcanzado una calidad que resulta difícil, incluso para alguien con un oído entrenado, distinguir el habla humana del habla artificial. Sí bien tiene aplicaciones de entretenimiento, de accesibilidad y asistentes virtuales, también plantea riesgos relacionados con la suplantación de identidad, la desinformación y el fraude.
+
+El trabajo aborda el problema de la detección de señales de voz generadas mediante inteligencia artificial en idioma español, un área de investigación de gran relevancia en los contenidos de audios sintéticos en las plataformas digitales.
 
 \subsection{Antecedentes}
 \label{sec:antecedentes}
 
-En esta sección, se presenta una revisión concisa y pertinente de investigaciones previas, literatura existente y el estado del arte relacionado con el tema de la tesis. El objetivo es situar el trabajo actual dentro del conocimiento acumulado, identificar vacíos en la investigación y demostrar la originalidad y la necesidad del estudio propuesto. Se deben citar adecuadamente las fuentes, mostrando cómo el trabajo se construye sobre cimientos previos o cómo aborda aspectos no resueltos.
+%En esta sección, se presenta una revisión concisa y pertinente de investigaciones previas, literatura existente y el estado del arte relacionado con el tema de la tesis. El objetivo es situar el trabajo actual dentro del conocimiento acumulado, identificar vacíos en la investigación y demostrar la originalidad y la necesidad del estudio propuesto. Se deben citar adecuadamente las fuentes, mostrando cómo el trabajo se construye sobre cimientos previos o cómo aborda aspectos no resueltos.
+
+\subsubsection{Antecedentes de la empresa}
+\label{subsec: antecedentes_empresa}
+
+El Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional (CINVESTAV) es una institución de educación superior e investigación científica en México, fundada en 1961. El CINVESTAV se dedica a la formación de recursos humanos altamente calificados y a la generación de conocimiento científico y tecnológico en diversas áreas, incluyendo ciencias exactas, ingenierías, ciencias sociales y humanidades. La institución cuenta con una amplia red de investigadores, laboratorios y centros de investigación especializados, y ha contribuido significativamente al desarrollo científico y tecnológico del país a través de sus proyectos de investigación, publicaciones académicas y colaboraciones internacionales. El CINVESTAV se caracteriza por su enfoque interdisciplinario y su compromiso con la innovación, la excelencia académica y la responsabilidad social, posicionándose como un referente en la investigación científica en México.
+
+\textbf{Misión:} Contribuir de manera destacada al desarrollo de la sociedad mediante la investigación científica y tecnológica de vanguardia y la formación de recursos humanos de alta calidad.
+
+\textbf{Visión:} Ser la institución líder en la formación de investigadores de alto nivel y generación de conocimientos científicos y tecnológicos de frontera, con un creciente impacto nacional e internacional que contribuya en forma visible y relevante a la solución de problemas del país ampliando nuestra presencia en la sociedad y en la cultura contemporánea
+
+\subsubsection{Antecedentes técnicos}
+\label{subsec: antecedentes_tecnicos}
+
+La detección de voz sintética (anti-spoofing de voz) o detección de deepfakesde audio, ha experimentado un crecimiento acelerado en los últimos años, impulsada por la serie de competencias ASVspoof (Automatic Speaker Verification Spoofing), que desde 2015 ha proporcionado un marco estandarizado para evaluar y comparar diferentes enfoques de detección de voz sintética. Estas competencias han abordado diversos escenarios, incluyendo ataques de síntesis de voz, conversión de voz y reproducción de voz, utilizando conjuntos de datos específicos para cada edición.
 
 \subsection{Definición del Problema}
 \label{sec:problema}
 
-Aquí se describe de manera clara y precisa el problema que la tesis busca resolver. Es fundamental articular el problema de forma que sea comprensible, relevante y factible de investigar. Esta sección debe responder a preguntas como: ¿Qué situación actual es insatisfactoria o genera una necesidad? ¿Qué aspectos de este problema no han sido abordados adecuadamente por investigaciones anteriores? La definición del problema puede ser formulada como una pregunta de investigación o una declaración clara de la brecha de conocimiento.
+La creciente accesibilidad a herramientas de síntesis de voz en español, tanto comerciales como de código abierto, facilita la creación de contenido de audio falso que puede ser utilizado con fines maliciosos. Con la falta de sistemas de detección efectivos, existe un riesgo significativo de que la desinformación y el fraude se propaguen a través de plataformas digitales, afectando la confianza del público en los medios de comunicación y las interacciones en línea. Por lo tanto, es crucial desarrollar métodos robustos para identificar y mitigar el impacto de las voces sintéticas en español, protegiendo así la integridad de la información y la seguridad de los usuarios.
+%Aquí se describe de manera clara y precisa el problema que la tesis busca resolver. Es fundamental articular el problema de forma que sea comprensible, relevante y factible de investigar. Esta sección debe responder a preguntas como: ¿Qué situación actual es insatisfactoria o genera una necesidad? ¿Qué aspectos de este problema no han sido abordados adecuadamente por investigaciones anteriores? La definición del problema puede ser formulada como una pregunta de investigación o una declaración clara de la brecha de conocimiento.
 
 \subsection{Objetivos}
 \label{sec:objetivos}
 
-Los objetivos son las metas que se esperan alcanzar con la realización de la investigación. Deben ser claros, medibles, alcanzables, relevantes y con un tiempo definido (SMART, por sus siglas en inglés). Se dividen en un objetivo general y varios objetivos específicos.
+%Los objetivos son las metas que se esperan alcanzar con la realización de la investigación. Deben ser claros, medibles, alcanzables, relevantes y con un tiempo definido (SMART, por sus siglas en inglés). Se dividen en un objetivo general y varios objetivos específicos.
 
 \subsubsection{Objetivo General}
 \label{subsec:objetivo_general}
 
-El objetivo general expresa el propósito fundamental del estudio en términos amplios. Es la meta principal que se busca lograr y generalmente abarca la totalidad de la investigación. Debe ser coherente con la definición del problema.
-\begin{itemize}
-    \item \textbf{Ejemplo:} Desarrollar un sistema automatizado para la detección temprana de fallas en turbinas eólicas utilizando técnicas de aprendizaje automático.
-\end{itemize}
+Desarrollar un sistema de detección de voz,generada mediante inteligencia artificial, en español.
+
+%\begin{itemize}
+ %   \item \textbf{Ejemplo:} Desarrollar un sistema automatizado para la detección temprana de fallas en turbinas eólicas utilizando técnicas de aprendizaje automático.
+%\end{itemize}
 
 \subsubsection{Objetivos Específicos}
 \label{subsec:objetivos_especificos}
 
-Los objetivos específicos detallan los pasos o las acciones concretas que se llevarán a cabo para alcanzar el objetivo general. Son tareas más pequeñas y desglosadas que, al ser cumplidas, permiten la consecución del objetivo principal.
+%Los objetivos específicos detallan los pasos o las acciones concretas que se llevarán a cabo para alcanzar el objetivo general. Son tareas más pequeñas y desglosadas que, al ser cumplidas, permiten la consecución del objetivo principal.
 \begin{itemize}
-    \item \textbf{Ejemplo 1:} Recopilar y preprocesar un conjunto de datos de vibraciones y parámetros operativos de turbinas eólicas.
-    \item \textbf{Ejemplo 2:} Implementar y evaluar diferentes algoritmos de aprendizaje automático para la clasificación de estados operativos (normal, pre-falla, falla).
-    \item \textbf{Ejemplo 3:} Diseñar una interfaz de usuario para la visualización de alertas y el monitoreo en tiempo real del estado de las turbinas.
+    \item \textbf{OE 1:}  Definir un corpus de segmentos de audio, tanto naturales como artificiales, balanceado por género, a partir de bases de datos públicas en español (CIEMPIESS LIGHT, CORPUS CHM150 y TEDx Spanish Corpus).
+    \item \textbf{OE 2:} Determinar la naturaleza de las características acústicas adecuadas para la detección de voz sintética en español, mediante el análisis y comparación de diferentes representaciones de señal.
+    \item \textbf{OE 3:} Determinar y evaluar el modelo de detección mediante una red neuronal profunda, comparando distintas arquitecturas con respecto a métricas de desempeño.
 \end{itemize}
 
 \subsection{Justificación}
 \label{sec:justificacion}
 
-La justificación explica por qué es importante y relevante llevar a cabo la investigación. Se deben argumentar los beneficios y la utilidad del estudio desde diferentes perspectivas: teórica, práctica, social, económica, tecnológica, etc. Responde a la pregunta: ¿Por qué vale la pena invertir tiempo y recursos en esta investigación? Aquí se resaltan los aportes que la tesis generará al campo del conocimiento o a la solución de problemas específicos.
+%La justificación explica por qué es importante y relevante llevar a cabo la investigación. Se deben argumentar los beneficios y la utilidad del estudio desde diferentes perspectivas: teórica, práctica, social, económica, tecnológica, etc. Responde a la pregunta: ¿Por qué vale la pena invertir tiempo y recursos en esta investigación? Aquí se resaltan los aportes que la tesis generará al campo del conocimiento o a la solución de problemas específicos.
+El impacto de los deepfakes de audio va más allá de la simple creación de contenido falso; tiene implicaciones profundas en la seguridad, la privacidad y la confianza en la información. En un mundo cada vez más digitalizado, donde las interacciones en línea son comunes, la capacidad de distinguir entre voces reales y sintéticas es crucial para proteger a los individuos y las organizaciones de posibles fraudes, suplantaciones de identidad y campañas de desinformación. Además, el desarrollo de sistemas de detección efectivos contribuirá a fortalecer la integridad de los medios digitales y a fomentar un entorno en línea más seguro y confiable.
+
 
 \subsection{Alcances y Limitaciones}
 \label{sec:alcances_limitaciones}
@@ -47,12 +67,22 @@ La justificación explica por qué es importante y relevante llevar a cabo la in
 \subsubsection{Alcances}
 \label{subsec:alcances}
 
-Los alcances definen claramente hasta dónde llegará el estudio, qué aspectos cubrirá y cuáles serán sus fronteras. Establecen qué elementos, variables, poblaciones o contextos serán incluidos en la investigación. Es esencial para evitar expectativas irrealistas y para mantener el enfoque del trabajo.
+%Los alcances definen claramente hasta dónde llegará el estudio, qué aspectos cubrirá y cuáles serán sus fronteras. Establecen qué elementos, variables, poblaciones o contextos serán incluidos en la investigación. Es esencial para evitar expectativas irrealistas y para mantener el enfoque del trabajo.
+El sistema se desarrollará y evaluará exclusivamente para señales de voz en español. Se utilizarán como datos de entrenamiento y prueba tres corpus de habla en español (CIEMPIESS LIGHT, CORPUS CHM150 y TEDx Spanish Corpus), complementados con muestras de voz sinténtica generada por modelos de síntesis de voz disponibles públicamente. 
+
+Los segmentos de audio serán procesados en bloques de duración fija de (2, 3 o 6 segundos),  representados como vectoresde características acústicas o espectrogramas, y se entrenarán modelos de detección basados en redes neuronales profundas.
+
+Se implementará y evaluará al menos una arquitectura de red neuronal profunda para la tarea de clasificación binaria (voz natural vs. voz sintética).
+
+El desarrollo se realizará en el entorno Google Colab utilizando Python y bibliotecas de código abierto.
+
 
 \subsubsection{Limitaciones}
 \label{subsec:limitaciones}
 
-Las limitaciones son los factores externos o internos que podrían restringir la validez, generalización o profundidad de los resultados de la investigación. Es importante identificarlas honestamente, ya que demuestran un pensamiento crítico por parte del investigador. Pueden incluir restricciones de tiempo, recursos, acceso a datos, metodológicas, etc.
+%Las limitaciones son los factores externos o internos que podrían restringir la validez, generalización o profundidad de los resultados de la investigación. Es importante identificarlas honestamente, ya que demuestran un pensamiento crítico por parte del investigador. Pueden incluir restricciones de tiempo, recursos, acceso a datos, metodológicas, etc.
+Los resultados obtenidos en esta tesis estarán limitados a las características específicas de los corpus utilizados, lo que podría afectar la generalización del sistema a otros contextos o tipos de voz. Además, la calidad y diversidad de las muestras de voz sintética generada por los modelos públicos pueden no representar completamente el espectro de voces artificiales disponibles en el mercado.
+
 
 \subsection{Ejemplos de Tablas e Inclusión de Imágenes}
 \label{sec:ejemplos_elementos}
