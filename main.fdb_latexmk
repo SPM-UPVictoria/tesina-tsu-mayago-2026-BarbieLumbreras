@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1779987080.68605 "main.bcf" "main.bbl" "main" 1779987253.56512 0
+["biber main"] 1779987080.68605 "main.bcf" "main.bbl" "main" 1780429201.83297 0
   "Referencias.bib" 1779211185.24447 3573 41c11ceec8649109896d18f1fa5554e2 ""
-  "main.bcf" 1779987253.28116 107571 d59a5cad0e15424039138f261eb6510d "pdflatex"
+  "main.bcf" 1780429201.55555 107571 d59a5cad0e15424039138f261eb6510d "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1779987250.29963 "/home/barbie/Escritorio/Tesina-may_ago-2026/tesina-tsu-mayago-2026-BarbieLumbreras/main.tex" "main.pdf" "main" 1779987253.56566 0
+["pdflatex"] 1780429198.39155 "/home/barbie/Escritorio/Tesina-may_ago-2026/tesina-tsu-mayago-2026-BarbieLumbreras/main.tex" "main.pdf" "main" 1780429201.83347 0
   "/etc/texmf/web2c/texmf.cnf" 1779213370.68839 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/barbie/Escritorio/Tesina-may_ago-2026/tesina-tsu-mayago-2026-BarbieLumbreras/main.tex" 1779986563.07009 21675 c8f5674081a8d31f9c2da35253cb9d7d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -276,13 +276,13 @@
   "img/diagrama_proceso.png" 1779211185.27247 112008 44b351836470c55d08613391f89f0950 ""
   "img/grafico_datos1.jpg" 1779211185.27647 61975 499da954c71825bb9a7d1851382fa1c6 ""
   "img/grafico_datos2.jpg" 1779211185.27647 38058 b7609460ad2209fe27a57c178b1daf89 ""
-  "introduccion.tex" 1779904892.81136 13200 caedefcab23abea2ffa7e0abfd2b56d2 ""
-  "main.aux" 1779987253.27116 9387 ded6cafa215ce2bd30d740dcd19b8660 "pdflatex"
+  "introduccion.tex" 1780429197.88956 13201 c2b177e47c8cb0cf1ca3c5c8907087d7 ""
+  "main.aux" 1780429201.54555 9387 ded6cafa215ce2bd30d740dcd19b8660 "pdflatex"
   "main.bbl" 1779987082.01643 11545 50adfab6722a2caac61f44f898047db8 "biber main"
-  "main.out" 1779987253.27616 5178 c17a5098c87f1c038f4f25b60230be0f "pdflatex"
-  "main.run.xml" 1779987253.28308 2306 628e0087c61ee8036d936d14edcd02fc "pdflatex"
+  "main.out" 1780429201.55055 5178 c17a5098c87f1c038f4f25b60230be0f "pdflatex"
+  "main.run.xml" 1780429201.55746 2306 628e0087c61ee8036d936d14edcd02fc "pdflatex"
   "main.tex" 1779986563.07009 21675 c8f5674081a8d31f9c2da35253cb9d7d ""
-  "main.toc" 1779987253.28316 2648 b4a5f49eac291cead1e85a5f7dfc45bc "pdflatex"
+  "main.toc" 1780429201.55755 2648 b4a5f49eac291cead1e85a5f7dfc45bc "pdflatex"
   "marco_teorico.tex" 1779987246.69177 2208 86bf301cef178caf7cc664d0b84457fb ""
   "metodologia.tex" 1779211185.29147 4096 5c32bf02e6a8e1f03c41edcfecebc1da ""
   "resultados.tex" 1779211185.29147 1077 db5af9c18ffdb5d2bd76b6af6b9ea184 ""
